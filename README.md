@@ -1,6 +1,6 @@
 # Design-Testing
 ## Initial phase of our pilot project 
-### Colaborators
+### Collaborators
 - Shashank
 - Vrutansh
 - Sahil

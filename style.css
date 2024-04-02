@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: #232323;
+    position: relative;
+    
+}
+
+.main .nav1{
+    height: 11vh;
+    width: 100%;
+    background: yellowgreen;
+
+}
+
+.main .nav2{
+    height: 51.5rem;
+    width: 9vh;
+    background: yellow;
+    
+}
+
+.container{
+    /* height: 50vh; */
+    width: 100%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    position: absolute;
+    top: 17%;
+    right: 8.5%;
+    bottom: 40%;
+}
+
+.container .elems{
+    height: 50vh;
+    width: 17.5%;
+    background: pink;
+    border-radius: 55px;
+      
+}

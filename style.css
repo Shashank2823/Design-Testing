@@ -14,6 +14,7 @@ html, body{
     height: 100%;
     width: 100%;
     background: #232323;
+    position: relative;
     
 }
 
@@ -29,4 +30,26 @@ html, body{
     width: 9vh;
     background: yellow;
     
+}
+
+.container{
+    /* height: 50vh; */
+    width: 100%;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    position: absolute;
+    top: 17%;
+    right: 8.5%;
+    bottom: 40%;
+}
+
+.container .elems{
+    height: 50vh;
+    width: 17.5%;
+    background: pink;
+    border-radius: 55px;
+      
 }

@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: #232323;
+    
+}
+
+.main .nav1{
+    height: 11vh;
+    width: 100%;
+    background: yellowgreen;
+
+}
+
+.main .nav2{
+    height: 51.5rem;
+    width: 9vh;
+    background: yellow;
+    
+}
